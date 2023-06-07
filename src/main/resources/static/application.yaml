@@ -1,0 +1,29 @@
+server:
+  port: 9001
+  servlet:
+    context-path: /fastmailer
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui
+logging:
+  level:
+    root: info
+whatsapp:
+  baseUrl: https://graph.facebook.com/v15.0/
+  token: Bearer EAAKDqGp7pD8BAJdDXPHIVHzZBtHzH5hxGMiyvotAvxZAFnx8JBaMGwSXUZB9|2aHoVVHF×4jVGObkBoWH21FFGy|5gWBcaWZAwPS7ftkIpo96MdxJ|SIKaOw97nSArkDt0685n08VraRx qKVwf5HkusqjZBOZCOsgs9iT9LRhZBtNUvsKOMp
+
+#spring:
+#  datasource:
+#    url: ${DB_URL:jdbc:mysql://localhost:3306/fastmailer}
+#    username: root
+#    password: mysql
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+test:
+  token: test
